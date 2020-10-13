@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.container b{
+    font-size: x-large;
+}
+
+.container img{
+    position: relative;
+    top: 8px;
+    height: 30px;
+    width: 30px;
+}
+
+.content{
+    width: 50%;
+    margin: auto;
+    height: 400px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px black;
+    border: 1px solid black;
+    margin-bottom: 10px ;
+    overflow-y: auto;
+}
+
+.message{
+    margin: 16px 12px;
+    border: none;
+    width: 24%;
+    padding: 10px;
+    background: rgb(183, 235, 183);
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px grey;
+}
+.left{
+ float: left;
+ clear: both;
+}
+.right{
+float: right;
+clear: both;
+}
+
+
+.inputBox form{
+    margin: auto;
+    max-width: 45%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.inputBox form input{
+    
+    width: 87%;
+    height: 26px;
+    border: 2px solid rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    background: rgba(128, 128, 128, 0.123);
+}
+
+.inputBox form button{
+    width: 71px;;
+    height: 26px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 14px;
+    background: rgba(87, 235, 87, 0.589);
+    box-shadow: 4px 4px 4px grey;
+    color: black;
+    cursor: pointer;
+    margin-left: 2px;
+}
+.inputBox form button:hover{
+    opacity: 0.8;
+}
+
